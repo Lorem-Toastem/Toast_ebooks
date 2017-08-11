@@ -8,7 +8,7 @@ MY_CONSUMER_SECRET = 'QqSYctmwxBrq5qSokcG1wLAmAEFwrBPyJ1rLdn6HNhu7ZcUUYD'
 MY_ACCESS_TOKEN_KEY = '896012585450995712-NXEO128sUYaV1yvQBTyTXyY56jhcYhq'
 MY_ACCESS_TOKEN_SECRET = 'fJkmtXuUYvFpkvqLUMRw57AJj3EWVJEQSeZxfxWNnyjzV'
 
-SOURCE_ACCOUNTS = ["LoremToastum"] #A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
+SOURCE_ACCOUNTS = ["LoremToastum", "thatonegeekykid"] #A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
 ODDS = 1 #How often do you want this to run? 1/8 times?
 ORDER = 2 #how closely do you want this to hew to sensical? 1 is low and 3 is high.
 DEBUG = False #Set this to False to start Tweeting live
