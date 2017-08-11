@@ -86,7 +86,6 @@ if __name__=="__main__":
                     #my_range = 18
                 for x in range(my_range)[1:]:
                     source_tweets_iter, max_id = grab_tweets(api,max_id)
-                    print "max id is {0}".format(max_id)
                     source_tweets += source_tweets_iter
                 print "{0} tweets found in {1}".format(len(source_tweets), handle)
                 if len(source_tweets) == 0:
