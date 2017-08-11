@@ -77,6 +77,7 @@ if __name__=="__main__":
                 api=connect()
                 handle_stats = api.GetUser(screen_name=user)
                 status_count = handle_stats.statuses_count
+                print status_count
                 max_id=None
                 if status_count<3200:
                     my_range = (status_count/200) + 1
