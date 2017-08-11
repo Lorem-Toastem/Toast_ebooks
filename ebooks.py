@@ -83,7 +83,7 @@ if __name__=="__main__":
                     my_range = (status_count/200) + 1
                 else:
                     #my_range = 17
-                    my_range = 20
+                    my_range = 10
                 for x in range(my_range)[1:]:
                     source_tweets_iter, max_id = grab_tweets(api,max_id)
                     source_tweets += source_tweets_iter
